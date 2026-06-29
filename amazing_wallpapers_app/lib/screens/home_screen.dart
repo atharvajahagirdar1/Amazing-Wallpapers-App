@@ -91,7 +91,7 @@ class _HomeScreenState extends State<HomeScreen> {
     });
 
     const String apiKey =
-        "ymKeItKkIN9XmTQFdLvzrsyOX8Qrlxt5m308vBfiS8OeL4X2oGrDxkbn";
+        "API_KEY";
 
     try {
       final response = await http.get(
